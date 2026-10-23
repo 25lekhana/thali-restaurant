@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tasty Bites | Restaurant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <a class="logo" href="#home">🍽️ Tasty<span>Bites</span></a>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#menu">Our Menu</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="small-title">FRESH • TASTY • MADE WITH LOVE</p>
+        <h1>Good food.<br><span>Good mood.</span></h1>
+        <p>Discover delicious food made fresh every day. Your next favourite meal is waiting!</p>
+        <a class="main-button" href="#menu">Explore Our Menu ↓</a>
+      </div>
+    </section>
+
+    <section class="menu-section" id="menu">
+      <div class="section-heading">
+        <p class="small-title">WHAT WOULD YOU LIKE?</p>
+        <h2>Explore Our Menu</h2>
+        <p>Choose a category and find something delicious.</p>
+      </div>
+
+      <div class="category-buttons" id="categoryButtons">
+        <button class="category-button active" data-category="All">All Items</button>
+        <button class="category-button" data-category="Starters">Starters</button>
+        <button class="category-button" data-category="Main Course">Main Course</button>
+        <button class="category-button" data-category="Soups">Soups</button>
+        <button class="category-button" data-category="Noodles">Noodles</button>
+        <button class="category-button" data-category="Milkshakes">Milkshakes</button>
+        <button class="category-button" data-category="Desserts">Desserts</button>
+      </div>
+
+      <div class="food-grid" id="foodGrid">
+        <!-- Food cards are added by JavaScript -->
+      </div>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="about-photo" role="img" aria-label="A delicious meal"></div>
+      <div>
+        <p class="small-title">A LITTLE ABOUT US</p>
+        <h2>Made fresh, served with a smile.</h2>
+        <p>At Tasty Bites, we believe good food brings people together. From crispy starters to sweet desserts, every dish is prepared to make your day better.</p>
+        <a class="main-button" href="#contact">Visit Us</a>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <p class="small-title">COME HUNGRY, LEAVE HAPPY</p>
+      <h2>We would love to see you!</h2>
+      <p>📍 Your City, India &nbsp; | &nbsp; ☎️ 98765 43210</p>
+      <a class="main-button" href="mailto:hello@tastybites.example">Contact Us</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Tasty Bites Restaurant. Made with ❤️ using HTML, CSS & JavaScript.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
